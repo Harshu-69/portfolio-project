@@ -1,0 +1,371 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harsh Khandalkar | Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio website of Harsh Khandalkar, frontend developer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header" id="top">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a class="logo" href="#home">HK</a>
+
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          aria-label="Toggle dark mode"
+        >
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <p class="eyebrow">Frontend Developer</p>
+            <h1>
+              Hi, I&apos;m <span>Harsh Khandalkar</span><br />
+              I craft scalable and high-performance web experiences.
+            </h1>
+            <p class="tech-stack">React • JavaScript • Tailwind • Next.js</p>
+
+            <p class="hero-summary">
+              I design and develop responsive, accessible, and
+              performance-optimized web applications using modern technologies
+              like React and JavaScript.
+            </p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">Hire Me</a>
+              <a href="#contact" class="btn btn-ghost">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="hero-image reveal">
+            <img
+              src="assets/harsh.jpeg"
+              alt="Harsh Khandalkar"
+              class="profile-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <h2 class="section-title reveal">About Me</h2>
+          <div class="about-grid">
+            <article class="card reveal">
+              <h3>Background</h3>
+              <p>
+                I&apos; am a passionate Frontend Developer with strong
+                problem-solving skills and hands-on experience in building
+                responsive and interactive web applications. I specialize in
+                creating clean, reusable UI components and optimizing
+                performance for better user experience. I enjoy transforming
+                ideas into scalable, maintainable, and visually engaging digital
+                products using modern frontend tools and best practices.
+              </p>
+            </article>
+            <article class="card reveal">
+              <h3>Education</h3>
+              <p><strong>Master of Computer Applications (MCA)</strong></p>
+              <p>K.D.K. College of Engineering, Nagpur</p>
+              <p>2025 – Present</p>
+              <p>
+                Focused on Software Development, Data Structures, and Web
+                Technologies. Building real-world frontend projects using React
+                and modern JavaScript.
+              </p>
+              <br />
+              <p>
+                <strong
+                  >Bachelor of Science in Computer Science (B.Sc. CS)</strong
+                >
+              </p>
+              <p>KZS Science College, Nagpur</p>
+              <p>2022 – 2025</p>
+            </article>
+
+            <article class="card reveal">
+              <h3>Experience</h3>
+              <p>GEN-AI Virtual Intern, AWS Academy (Oct 2025 – Dec 2025)</p>
+              <p>
+                Successfully completed a 10-week virtual internship focused on
+                Generative AI. Gained hands-on experience with AI fundamentals,
+                cloud-based AI services, and real-world AI applications through
+                structured assignments and projects.
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <h3>Career Objective</h3>
+              <p>
+                To secure a Frontend Web Developer role where I can build
+                responsive, high-performance, and user-friendly web applications
+                using modern technologies like HTML, CSS, JavaScript, and React,
+                while contributing to impactful digital products.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <h2 class="section-title reveal">Skills</h2>
+          <div class="skills-grid">
+            <article class="skill-card reveal" data-level="95">
+              <div class="skill-meta">
+                <h3>HTML</h3>
+                <span>95%</span>
+              </div>
+              <div class="progress"><span></span></div>
+            </article>
+            <article class="skill-card reveal" data-level="90">
+              <div class="skill-meta">
+                <h3>CSS</h3>
+                <span>90%</span>
+              </div>
+              <div class="progress"><span></span></div>
+            </article>
+            <article class="skill-card reveal" data-level="88">
+              <div class="skill-meta">
+                <h3>JavaScript</h3>
+                <span>88%</span>
+              </div>
+              <div class="progress"><span></span></div>
+            </article>
+            <article class="skill-card reveal" data-level="80">
+              <div class="skill-meta">
+                <h3>React</h3>
+                <span>80%</span>
+              </div>
+              <div class="progress"><span></span></div>
+            </article>
+            <article class="skill-card reveal" data-level="78">
+              <div class="skill-meta">
+                <h3>Next.js</h3>
+                <span>70%</span>
+              </div>
+              <div class="progress"><span></span></div>
+            </article>
+            <article class="skill-card reveal" data-level="82">
+              <div class="skill-meta">
+                <h3>Git & GitHub</h3>
+                <span>80%</span>
+              </div>
+              <div class="progress"><span></span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <h2 class="section-title reveal">Projects</h2>
+          <div
+            class="filter-controls reveal"
+            role="tablist"
+            aria-label="Project categories"
+          >
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="react">React</button>
+            <button class="filter-btn" data-filter="js">JavaScript</button>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card reveal" data-category="web">
+              <img
+                src="assets/LazarevClone.png"
+                alt="E-commerce dashboard project preview"
+              />
+              <div class="project-content">
+                <h3>LAZAREV Design Agency Clone</h3>
+                <p>
+                  Inspired by LAZAREV., a premium digital product design agency
+                  known for bold visuals, smooth animations, and cutting-edge UX
+                  experiences.
+                </p>
+                <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="web">
+              <img src="/assets/Obys Agency.png" />
+              <div class="project-content">
+                <h3>Obeys Agency Clone</h3>
+                <p>
+                  A frontend-focused clone inspired by Obeys Agency,
+                  highlighting advanced animations, smooth scrolling, and modern
+                  UI implementation.
+                </p>
+                <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="react">
+              <img src="/assets/Refokus.png" />
+              <div class="project-content">
+                <h3>Refokus Clone</h3>
+                <p>
+                  Inspired by Refokus, a digital product studio known for
+                  immersive animations and modern, visually striking web
+                  experiences, smooth animations, and advanced UI.
+                </p>
+                <p><strong>Tech:</strong> React.js, Tailwind CSS</p>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="js">
+              <img src="/assets/weatherApp.png" />
+              <div class="project-content">
+                <h3>Weather Insight</h3>
+                <p>
+                  Real-time weather platform with geolocation support and 7-day
+                  forecast cards.
+                </p>
+                <p><strong>Tech:</strong> JavaScript, REST API, CSS</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <h2 class="section-title reveal">Contact</h2>
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                required
+                minlength="2"
+                placeholder="Your full name"
+              />
+              <small class="error" id="name-error"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                placeholder="you@example.com"
+              />
+              <small class="error" id="email-error"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                minlength="10"
+                placeholder="Write your message"
+              ></textarea>
+              <small class="error" id="message-error"></small>
+            </div>
+
+            <button
+              type="submit"
+              id="submit-btn"
+              class="btn btn-primary"
+              disabled
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/harsh-khandalkar-631274256/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com/Harshu-69"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+        </div>
+        <p>
+          &copy; <span id="year"></span> Harsh Khandalkar. All rights reserved.
+        </p>
+        <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+          ↑
+        </button>
+      </div>
+    </footer>
+
+    <div
+      class="modal"
+      id="testimonial-modal"
+      aria-hidden="true"
+      role="dialog"
+      aria-labelledby="modal-name"
+      aria-modal="true"
+    >
+      <div class="modal-content">
+        <button
+          class="modal-close"
+          id="modal-close"
+          aria-label="Close testimonial"
+        >
+          &times;
+        </button>
+        <h3 id="modal-name"></h3>
+        <p id="modal-role" class="modal-role"></p>
+        <p id="modal-feedback"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
